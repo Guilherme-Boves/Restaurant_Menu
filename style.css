@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {     
+    height: 100%;  
+    margin: 0;  
+}
+
+.body-background{
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('forest.jpg');    
+
+    /* background-image: url("forest.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card {        
+    border-radius: 35px;    
+    box-shadow: 10px 5px 5px black;
+    background: #007580;     
+    width: 38rem;
+    margin: 5rem auto;
+	height: 50rem; 
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poppins';  
+    color: #fed049;
+    font-size: 45px;
+    padding: 1.25rem 0 0 0;
+    text-shadow: 2px 2px #ff0000;  
+}
+
+h2{
+    text-align: center;
+    font-family: 'Poppins';  
+    color: #fed049;
+    font-size: 30px;
+    margin-top: -55px;
+    padding: 1.25rem 0 0 0;
+    text-shadow: 2px 2px #ff0000; 
+}
+
+label{
+    text-align: center;
+    font-family: 'Poppins';  
+    color: #fed049;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: -55px;
+    padding: 1.25rem 0 0 0;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.Dados_pessoais{
+    margin-top: 30px;
+    font-family: 'Poppins';  
+    color: #fed049;
+    font-size: 10px;
+    padding: 1.25rem 0 0 0;
+    text-shadow: 2px 2px #ff0000;  
+}
+ 
+.form-control /*Campos de resposta - Nome - Telefone - Email*/{
+    width: 90%; 
+    margin-left: 10px; 
+    text-align: center;    
+}
+
+.Prato_principal_card{
+    margin-top: 30px;       
+}
+
+.form-check{
+    display: block;
+    float: left;
+    margin-left: 12px;     
+    font-size: 10px;
+    font-family: 'Poppins';  
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px #ff0000;
+    margin-top: 10px;    
+}
+
+.Acompanhamentos{
+    margin-top: 7rem;
+}
+
+.button{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fed049;
+    border: 1px solid #fed049;
+    border-bottom-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poppins';  
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding: 1.25rem;
+    text-shadow: 2px 2px #ff0000;
+    margin-left: -2.6%;
+}
+
+.button:hover{
+    background-color: #f8da80;
+}
+
+.finalizar{
+        display: block;
+        position: absolute;
+        bottom: 0;    
+        background-color: #fed049;
+        border: 1px solid #fed049;    
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Poppins';  
+        color: rgb(0, 0, 0);
+        font-size: 40px;        
+        text-shadow: 2px 2px #ff0000;
+        
+    }
+
+
